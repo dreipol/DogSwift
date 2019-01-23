@@ -6,8 +6,6 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Instructions
 
-# Enable logging
-
 Add the environment variable `LOG_LEVEL` along with the desired value:
 - `error = 0`
 - `warning = 1`
