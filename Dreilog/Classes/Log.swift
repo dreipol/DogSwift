@@ -74,7 +74,7 @@ public struct Log {
         _ function: @autoclosure @escaping () -> String,
         _ line: @autoclosure @escaping () -> Int) {
 
-#if LOGGING_ENABLED
+//#if LOGGING_ENABLED
         if !shouldLog(with: level) {
             return
         }
@@ -92,7 +92,7 @@ public struct Log {
         } else {
             NSLog("[%@] %@", description, message)
         }
-#endif
+//#endif
     }
 }
 
