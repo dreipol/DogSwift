@@ -2,7 +2,7 @@
 //  LogOptions.swift
 //
 //  Created by Fabian Tinsz on 22.01.19.
-//  Copyright © 2019 Bertschi AG. All rights reserved.
+//  Copyright © 2019 dreipol GmbH. All rights reserved.
 //
 
 import Foundation

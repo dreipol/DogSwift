@@ -2,7 +2,7 @@
 //  Log.swift
 //
 //  Created by Fabian Tinsz on 04.10.18.
-//  Copyright © 2018 Bertschi AG. All rights reserved.
+//  Copyright © 2018 dreipol GmbH. All rights reserved.
 //
 
 import Foundation
