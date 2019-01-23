@@ -8,7 +8,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 # Enable logging
 
-Add the environment variable `LOG_LEVEL=3` to your app's scheme and set the desired log level:
+Add the environment variable `LOG_LEVEL` along with the desired value:
 - `error = 0`
 - `warning = 1`
 - `info = 2`
