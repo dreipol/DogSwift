@@ -1,0 +1,20 @@
+{
+  "name": "Dreilog",
+  "version": "0.1.0",
+  "summary": "Lightweight logging framework.",
+  "description": "Lightweight logging framework written in Swift.",
+  "homepage": "https://github.com/dreipol/dreilog-swift",
+  "authors": {
+    "Fabian Tinsz": "fabian.tinsz@dreipol.ch"
+  },
+  "source": {
+    "git": "https://github.com/dreipol/dreilog-swift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "swift_versions": "4.2",
+  "source_files": "Dreilog/Classes/**/*",
+  "swift_version": "4.2"
+}

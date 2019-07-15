@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Dreilog
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
