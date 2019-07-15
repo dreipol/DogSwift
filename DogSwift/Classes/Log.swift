@@ -104,6 +104,19 @@ private extension OSLog {
             category: tag.description
         )
     }
+
+    static func type(for level: Level) -> OSLogType {
+        switch level {
+        case .error:
+            return OSLogType.error
+        case .info:
+            return OSLogType.info
+        case .debug:
+            return OSLogType.debug
+        default:
+            return OSLogType.default
+        }
+    }
 }
 
 // MARK: - String extension
