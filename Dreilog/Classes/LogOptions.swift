@@ -7,7 +7,7 @@
 
 import Foundation
 
-/// Available loggin levels are: `error`, `warn`, `info`, `debug`.
+/// Available logging levels are: `error`, `warn`, `info`, `debug`.
 public enum Level: UInt8, CaseIterable {
     case error   = 0
     case warn = 1
