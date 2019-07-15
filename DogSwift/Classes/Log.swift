@@ -79,8 +79,6 @@ public struct Log {
             return
         }
 
-        let message = message() ??? "message is nil"
-
         var description = level.description
         if tag != .none {
             description += " " + tag.description
@@ -88,9 +86,9 @@ public struct Log {
 
         if #available(iOS 10.0, *) {
             let fileName = path().fileNameWithoutExtension
-            os_log("[%@ | %@:%d] %@", description, fileName, line(), message)
+            os_log("[%@ | %@:%d] %@", description, fileName, String(describing: line()), String(describing: message()))
         } else {
-            NSLog("[%@] %@", description, message)
+            NSLog("[%@] %@", description, String(describing: message()))
         }
 //#endif
     }
