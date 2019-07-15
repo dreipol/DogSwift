@@ -96,6 +96,16 @@ public struct Log {
     }
 }
 
+@available(iOS 10.0, *)
+private extension OSLog {
+    static func category(for tag: Tag) -> OSLog {
+        return OSLog(
+            subsystem: Bundle.main.bundleIdentifier!,
+            category: tag.description
+        )
+    }
+}
+
 // MARK: - String extension
 private extension String {
     private var removePathExtension: String {
