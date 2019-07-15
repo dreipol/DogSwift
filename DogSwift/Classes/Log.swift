@@ -81,16 +81,11 @@ public struct Log {
 
         let message = message() ??? "message is nil"
 
-        var description = level.description
-        if tag != .none {
-            description += " " + tag.description
-        }
-
         if #available(iOS 10.0, *) {
             let fileName = path().fileNameWithoutExtension
             os_log("[%@ | %@:%d] %@", description, fileName, line(), message)
         } else {
-            NSLog("[%@] %@", description, message)
+            NSLog("[%@] [%@] %@", tag.description, level.description, message)
         }
 //#endif
     }
