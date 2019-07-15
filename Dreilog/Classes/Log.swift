@@ -36,7 +36,7 @@ public struct Log {
         _ function: String = #function,
         _ line: Int = #line) {
 
-        Log.print(.warning, tag, message, file, function, line)
+        Log.print(.warn, tag, message, file, function, line)
     }
 
     public static func error(
