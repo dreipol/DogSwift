@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Dreilog
+import DogSwift
 
 class ViewController: UIViewController {
     override func viewDidLoad() {

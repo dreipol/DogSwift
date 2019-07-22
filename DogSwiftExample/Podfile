@@ -6,5 +6,5 @@ target 'DogSwiftExample' do
   use_frameworks!
 
   # Pods for DogSwiftExample
-  pod 'Dreilog', :path => ".."
+  pod 'DogSwift', :path => ".."
 end

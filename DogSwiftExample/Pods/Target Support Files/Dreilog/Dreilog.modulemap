@@ -1,6 +1,0 @@
-framework module Dreilog {
-  umbrella header "Dreilog-umbrella.h"
-
-  export *
-  module * { export * }
-}

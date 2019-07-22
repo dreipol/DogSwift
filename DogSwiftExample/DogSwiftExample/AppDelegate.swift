@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Dreilog
+import DogSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

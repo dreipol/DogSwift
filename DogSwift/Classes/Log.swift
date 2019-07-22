@@ -79,14 +79,12 @@ public struct Log {
             return
         }
 
-        let message = message() ??? "message is nil"
-
         if #available(iOS 10.0, *) {
             let fileName = path().fileNameWithoutExtension
             os_log("[%@] [%@:%d] %@", log: OSLog.category(for: tag), type: OSLog.type(for: level),
-                   level.description, fileName, line(), message)
+                   level.description, fileName, String(describing: line()), String(describing: message()))
         } else {
-            NSLog("[%@] [%@] %@", tag.description, level.description, message)
+            NSLog("[%@] [%@] %@", tag.description, level.description, String(describing: message()))
         }
 //#endif
     }

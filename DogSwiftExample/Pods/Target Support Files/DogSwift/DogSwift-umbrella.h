@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double DreilogVersionNumber;
-FOUNDATION_EXPORT const unsigned char DreilogVersionString[];
+FOUNDATION_EXPORT double DogSwiftVersionNumber;
+FOUNDATION_EXPORT const unsigned char DogSwiftVersionString[];
 
