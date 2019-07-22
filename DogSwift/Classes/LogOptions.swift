@@ -9,10 +9,10 @@ import Foundation
 
 /// Available logging levels are: `error`, `warn`, `info`, `debug`.
 public enum Level: UInt8, CaseIterable {
-    case error = 0
-    case warn  = 1
+    case debug = 1
     case info  = 2
-    case debug = 3
+    case warn  = 3
+    case error = 4
 
     var description: String {
         return String(describing: self).uppercased()

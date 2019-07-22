@@ -63,7 +63,7 @@ public struct Log {
             return false
         }
 
-        return currentLoggingLevel <= maximumLoggingLevel
+        return currentLoggingLevel >= maximumLoggingLevel
     }
 
     private static func print(
