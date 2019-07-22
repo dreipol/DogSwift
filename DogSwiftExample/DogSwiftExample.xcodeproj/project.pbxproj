@@ -3,16 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		596AFCA7D222100C284F1E87 /* Pods_DogSwiftExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0A207E5E98D67D7FE0C9DD /* Pods_DogSwiftExample.framework */; };
 		B0347DC422DC9F17003D8AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0347DC322DC9F17003D8AEC /* AppDelegate.swift */; };
 		B0347DC622DC9F17003D8AEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0347DC522DC9F17003D8AEC /* ViewController.swift */; };
-		B0347DC922DC9F17003D8AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0347DC722DC9F17003D8AEC /* Main.storyboard */; };
 		B0347DCB22DC9F17003D8AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0347DCA22DC9F17003D8AEC /* Assets.xcassets */; };
-		B0347DCE22DC9F17003D8AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0347DCC22DC9F17003D8AEC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +19,7 @@
 		B0347DC022DC9F17003D8AEC /* DogSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0347DC322DC9F17003D8AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0347DC522DC9F17003D8AEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B0347DC822DC9F17003D8AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0347DCA22DC9F17003D8AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B0347DCD22DC9F17003D8AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0347DCF22DC9F17003D8AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF0A207E5E98D67D7FE0C9DD /* Pods_DogSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -71,9 +67,7 @@
 			children = (
 				B0347DC322DC9F17003D8AEC /* AppDelegate.swift */,
 				B0347DC522DC9F17003D8AEC /* ViewController.swift */,
-				B0347DC722DC9F17003D8AEC /* Main.storyboard */,
 				B0347DCA22DC9F17003D8AEC /* Assets.xcassets */,
-				B0347DCC22DC9F17003D8AEC /* LaunchScreen.storyboard */,
 				B0347DCF22DC9F17003D8AEC /* Info.plist */,
 			);
 			path = DogSwiftExample;
@@ -85,7 +79,6 @@
 				57BC0BADA9540A2787B49087 /* Pods-DogSwiftExample.debug.xcconfig */,
 				8064E37E17D26F2BF44834DF /* Pods-DogSwiftExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,9 +142,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0347DCE22DC9F17003D8AEC /* LaunchScreen.storyboard in Resources */,
 				B0347DCB22DC9F17003D8AEC /* Assets.xcassets in Resources */,
-				B0347DC922DC9F17003D8AEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,25 +202,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		B0347DC722DC9F17003D8AEC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0347DC822DC9F17003D8AEC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B0347DCC22DC9F17003D8AEC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0347DCD22DC9F17003D8AEC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		B0347DD022DC9F17003D8AEC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -282,7 +254,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -337,7 +309,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

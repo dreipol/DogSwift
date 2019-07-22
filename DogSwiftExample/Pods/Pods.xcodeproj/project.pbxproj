@@ -30,8 +30,8 @@
 /* Begin PBXFileReference section */
 		0334CB123BAF774F0892433ED27A21F7 /* Pods-DogSwiftExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DogSwiftExample-Info.plist"; sourceTree = "<group>"; };
 		11DC9BB8C8DE5A0DD6E2F230D9261BE0 /* Pods-DogSwiftExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DogSwiftExample-umbrella.h"; sourceTree = "<group>"; };
-		1887578ACC3C46800EFCB76442F54DAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1DDD50A09F5805FC1BE73CAEC4A57467 /* DogSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DogSwift.framework; path = DogSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1887578ACC3C46800EFCB76442F54DAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1DDD50A09F5805FC1BE73CAEC4A57467 /* DogSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DogSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22212219636074AD40F4B101A06246E8 /* DogSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DogSwift-dummy.m"; sourceTree = "<group>"; };
 		2814FC0FF19724DD881110F2B89EE740 /* LogOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogOptions.swift; path = DogSwift/Classes/LogOptions.swift; sourceTree = "<group>"; };
 		30E1B5CC9F665324F447F7FC1025D3F9 /* Pods-DogSwiftExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DogSwiftExample-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		6770920BAA835BEFE0187446A0E5A23F /* Pods-DogSwiftExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DogSwiftExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		83DAF74D556774DB509B0BE3EA8DCC9B /* Pods-DogSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DogSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
 		9B1CCF9D9080B0DEE59498AD88142BD2 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = DogSwift/Classes/Log.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9B644962EA9CCA8D11EF1EB61EEE4CF /* Pods-DogSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DogSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
-		AB56BEEC2AB4BAC7FD5323A2B746FD29 /* Pods_DogSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DogSwiftExample.framework; path = "Pods-DogSwiftExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD17F8B41D33092047598679BFD1912A /* DogSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DogSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB56BEEC2AB4BAC7FD5323A2B746FD29 /* Pods_DogSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD17F8B41D33092047598679BFD1912A /* DogSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DogSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C1035DE56167ABBFD5D72C2CF1CB9A51 /* DogSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DogSwift.xcconfig; sourceTree = "<group>"; };
 		C233B282DF307CF70F79E28F1FEFE13F /* Pods-DogSwiftExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DogSwiftExample.modulemap"; sourceTree = "<group>"; };
 		EA6970AFD450FE66C697C25B9E3F0FF0 /* DogSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DogSwift-Info.plist"; sourceTree = "<group>"; };
@@ -244,6 +244,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					C3DAA14758D05B436ACCE3448B9BCDCF = {
+						LastSwiftMigration = 1020;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
@@ -339,7 +344,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -374,7 +379,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
