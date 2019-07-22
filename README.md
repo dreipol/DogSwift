@@ -1,5 +1,9 @@
 # DogSwift
 
+A lightweight and easy to use logging API to include in your mobile iOS application. 
+
+DogSwift uses `os_log` on devices with iOS 10.0+ installed and falls back to `NSLog` for older iOS versions. DogSwift can print errors, messages and object descriptions to Xcode's debugging console. It's also possible to tag each logging statement with a category which will be utilized by Apple's `os_log` implementation, like `UI`, `Networking` et cetera.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
