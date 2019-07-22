@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Dreilog'
+  s.name             = 'DogSwift'
   s.version          = '0.1.0'
   s.summary          = 'Lightweight logging framework.'
 
@@ -28,5 +28,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.swift_version = '4.2'
 
-  s.source_files = 'Dreilog/Classes/**/*'
+  s.source_files = 'DogSwift/Classes/**/*'
 end
