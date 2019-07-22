@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		259695390EA2C429C47B721D6EF29461 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CDFE2615E2D68EDA79309D9E1AF02C /* Log.swift */; };
+		5BF723B1C02EF53049230EFC818941C6 /* Dreilog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ACEA9474EDAE9853B39E99BCF89CA4D /* Dreilog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EEF4378315411BE38CCD6E74A34E0E0 /* LogHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C34EB394BA111A0AC24A42BCE5B45D /* LogHelper.swift */; };
+		8460362FFF8613F6E492A4B6FCBB47FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9363DF7DF2FD8FAC5873B998DD2064CA /* LogOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC625710DAF76B1E0E38892FBD6DDB2 /* LogOptions.swift */; };
+		A6F4AFE185B6ED31BE966882F7BA8C69 /* Pods-DogSwiftExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 407C853A43472E086F418C9A92D00B33 /* Pods-DogSwiftExample-dummy.m */; };
+		E02E27AE320032562C3B9EBB8DCBED18 /* Pods-DogSwiftExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11DC9BB8C8DE5A0DD6E2F230D9261BE0 /* Pods-DogSwiftExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3751B4425D0E057311F60B838D43325 /* Dreilog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F2AF618B7B95724AA914ED7BE2FAC1 /* Dreilog-dummy.m */; };
+		F10817793C87E4A83693DEEB8C29C70A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75B594DB53A63326030D4D0B1DFFA800 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD1EB0D9F38A844884AA2BAAA21E71B3;
+			remoteInfo = Dreilog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0334CB123BAF774F0892433ED27A21F7 /* Pods-DogSwiftExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DogSwiftExample-Info.plist"; sourceTree = "<group>"; };
+		0ACEA9474EDAE9853B39E99BCF89CA4D /* Dreilog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dreilog-umbrella.h"; sourceTree = "<group>"; };
+		0EC625710DAF76B1E0E38892FBD6DDB2 /* LogOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogOptions.swift; path = Dreilog/Classes/LogOptions.swift; sourceTree = "<group>"; };
+		11DC9BB8C8DE5A0DD6E2F230D9261BE0 /* Pods-DogSwiftExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DogSwiftExample-umbrella.h"; sourceTree = "<group>"; };
+		1CFB2C1A68994E932A3C623D4195A938 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		22CDFE2615E2D68EDA79309D9E1AF02C /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = Dreilog/Classes/Log.swift; sourceTree = "<group>"; };
+		30E1B5CC9F665324F447F7FC1025D3F9 /* Pods-DogSwiftExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DogSwiftExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		364BD063DAC6B1204E6127EE5F8B3444 /* Dreilog.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Dreilog.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3867627C982DDA658D4F358B6F75CBF9 /* Dreilog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Dreilog.modulemap; sourceTree = "<group>"; };
+		407C853A43472E086F418C9A92D00B33 /* Pods-DogSwiftExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DogSwiftExample-dummy.m"; sourceTree = "<group>"; };
+		5BA159F8C0360894A5C145DE7CD517E7 /* Pods-DogSwiftExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DogSwiftExample-frameworks.sh"; sourceTree = "<group>"; };
+		6770920BAA835BEFE0187446A0E5A23F /* Pods-DogSwiftExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DogSwiftExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83DAF74D556774DB509B0BE3EA8DCC9B /* Pods-DogSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DogSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
+		899A6C5252FCA59B2012634649B63E05 /* Dreilog-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Dreilog-Info.plist"; sourceTree = "<group>"; };
+		99216DC8D7D1B374CBC7CC334223CD1A /* Dreilog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Dreilog-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0F2AF618B7B95724AA914ED7BE2FAC1 /* Dreilog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Dreilog-dummy.m"; sourceTree = "<group>"; };
+		A5464FCD0161C93AB6B9AC0EE5431FAD /* Dreilog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Dreilog.xcconfig; sourceTree = "<group>"; };
+		A9B644962EA9CCA8D11EF1EB61EEE4CF /* Pods-DogSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DogSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
+		AB56BEEC2AB4BAC7FD5323A2B746FD29 /* Pods_DogSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DogSwiftExample.framework; path = "Pods-DogSwiftExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0987557FBA22B6616206FE6D5E049B1 /* Dreilog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Dreilog.framework; path = Dreilog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C34EB394BA111A0AC24A42BCE5B45D /* LogHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogHelper.swift; path = Dreilog/Classes/LogHelper.swift; sourceTree = "<group>"; };
+		C233B282DF307CF70F79E28F1FEFE13F /* Pods-DogSwiftExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DogSwiftExample.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8ADACA0BAF7721D6F68D3D975810CB45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10817793C87E4A83693DEEB8C29C70A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4146351297376A846173D212BB5A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8460362FFF8613F6E492A4B6FCBB47FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2470E49112EAA313B6A233BC89D4F9C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0987557FBA22B6616206FE6D5E049B1 /* Dreilog.framework */,
+				AB56BEEC2AB4BAC7FD5323A2B746FD29 /* Pods_DogSwiftExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26CE42E6A037985FF272794768E1B6AE /* Dreilog */ = {
+			isa = PBXGroup;
+			children = (
+				22CDFE2615E2D68EDA79309D9E1AF02C /* Log.swift */,
+				B5C34EB394BA111A0AC24A42BCE5B45D /* LogHelper.swift */,
+				0EC625710DAF76B1E0E38892FBD6DDB2 /* LogOptions.swift */,
+				B43EA3108C1B6627349F53A0D84E45E2 /* Pod */,
+				C1CDE480EFBA559BBA4F7ABEC913636F /* Support Files */,
+			);
+			name = Dreilog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B36B525153E07007DE01EB75D9FD74F2 /* Pods-DogSwiftExample */ = {
+			isa = PBXGroup;
+			children = (
+				C233B282DF307CF70F79E28F1FEFE13F /* Pods-DogSwiftExample.modulemap */,
+				6770920BAA835BEFE0187446A0E5A23F /* Pods-DogSwiftExample-acknowledgements.markdown */,
+				30E1B5CC9F665324F447F7FC1025D3F9 /* Pods-DogSwiftExample-acknowledgements.plist */,
+				407C853A43472E086F418C9A92D00B33 /* Pods-DogSwiftExample-dummy.m */,
+				5BA159F8C0360894A5C145DE7CD517E7 /* Pods-DogSwiftExample-frameworks.sh */,
+				0334CB123BAF774F0892433ED27A21F7 /* Pods-DogSwiftExample-Info.plist */,
+				11DC9BB8C8DE5A0DD6E2F230D9261BE0 /* Pods-DogSwiftExample-umbrella.h */,
+				83DAF74D556774DB509B0BE3EA8DCC9B /* Pods-DogSwiftExample.debug.xcconfig */,
+				A9B644962EA9CCA8D11EF1EB61EEE4CF /* Pods-DogSwiftExample.release.xcconfig */,
+			);
+			name = "Pods-DogSwiftExample";
+			path = "Target Support Files/Pods-DogSwiftExample";
+			sourceTree = "<group>";
+		};
+		B43EA3108C1B6627349F53A0D84E45E2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				364BD063DAC6B1204E6127EE5F8B3444 /* Dreilog.podspec */,
+				1CFB2C1A68994E932A3C623D4195A938 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B7F583E63AFF54FA9F02534EA6451CC0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36B525153E07007DE01EB75D9FD74F2 /* Pods-DogSwiftExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C1CDE480EFBA559BBA4F7ABEC913636F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3867627C982DDA658D4F358B6F75CBF9 /* Dreilog.modulemap */,
+				A5464FCD0161C93AB6B9AC0EE5431FAD /* Dreilog.xcconfig */,
+				A0F2AF618B7B95724AA914ED7BE2FAC1 /* Dreilog-dummy.m */,
+				899A6C5252FCA59B2012634649B63E05 /* Dreilog-Info.plist */,
+				99216DC8D7D1B374CBC7CC334223CD1A /* Dreilog-prefix.pch */,
+				0ACEA9474EDAE9853B39E99BCF89CA4D /* Dreilog-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "DogSwiftExample/Pods/Target Support Files/Dreilog";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E29BD3A10F86E396217DDBBEAADA5E4F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2470E49112EAA313B6A233BC89D4F9C8 /* Products */,
+				B7F583E63AFF54FA9F02534EA6451CC0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E29BD3A10F86E396217DDBBEAADA5E4F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26CE42E6A037985FF272794768E1B6AE /* Dreilog */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		91E0FBA44AD8AB6538191B4678FA3BBD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BF723B1C02EF53049230EFC818941C6 /* Dreilog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA670D9C8D02FF98825175F43035DD72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02E27AE320032562C3B9EBB8DCBED18 /* Pods-DogSwiftExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		196D7BAFC12142BDB4CFC40516BA669E /* Pods-DogSwiftExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 018188BFC44314BAE82BDD53E93E0FEE /* Build configuration list for PBXNativeTarget "Pods-DogSwiftExample" */;
+			buildPhases = (
+				DA670D9C8D02FF98825175F43035DD72 /* Headers */,
+				E1FA6BF832595A085B48F05D71DCFF87 /* Sources */,
+				8ADACA0BAF7721D6F68D3D975810CB45 /* Frameworks */,
+				13549D343EEE170B4F98BE3DB304DFAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD2F6D55F002305A349FC0ED93092ABB /* PBXTargetDependency */,
+			);
+			name = "Pods-DogSwiftExample";
+			productName = "Pods-DogSwiftExample";
+			productReference = AB56BEEC2AB4BAC7FD5323A2B746FD29 /* Pods_DogSwiftExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD1EB0D9F38A844884AA2BAAA21E71B3 /* Dreilog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7397BF99EF1F559A261E55B5F0D894 /* Build configuration list for PBXNativeTarget "Dreilog" */;
+			buildPhases = (
+				91E0FBA44AD8AB6538191B4678FA3BBD /* Headers */,
+				02644DABEA2FAE463C90D03AB62889B0 /* Sources */,
+				EB4146351297376A846173D212BB5A81 /* Frameworks */,
+				0D2308E5886EB76B62A480DB45DA0E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dreilog;
+			productName = Dreilog;
+			productReference = B0987557FBA22B6616206FE6D5E049B1 /* Dreilog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2470E49112EAA313B6A233BC89D4F9C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD1EB0D9F38A844884AA2BAAA21E71B3 /* Dreilog */,
+				196D7BAFC12142BDB4CFC40516BA669E /* Pods-DogSwiftExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D2308E5886EB76B62A480DB45DA0E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13549D343EEE170B4F98BE3DB304DFAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02644DABEA2FAE463C90D03AB62889B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3751B4425D0E057311F60B838D43325 /* Dreilog-dummy.m in Sources */,
+				259695390EA2C429C47B721D6EF29461 /* Log.swift in Sources */,
+				6EEF4378315411BE38CCD6E74A34E0E0 /* LogHelper.swift in Sources */,
+				9363DF7DF2FD8FAC5873B998DD2064CA /* LogOptions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FA6BF832595A085B48F05D71DCFF87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F4AFE185B6ED31BE966882F7BA8C69 /* Pods-DogSwiftExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD2F6D55F002305A349FC0ED93092ABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Dreilog;
+			target = AD1EB0D9F38A844884AA2BAAA21E71B3 /* Dreilog */;
+			targetProxy = 75B594DB53A63326030D4D0B1DFFA800 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37E77765D1FE73BDDBF439092685C920 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5464FCD0161C93AB6B9AC0EE5431FAD /* Dreilog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Dreilog/Dreilog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dreilog/Dreilog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Dreilog/Dreilog.modulemap";
+				PRODUCT_MODULE_NAME = Dreilog;
+				PRODUCT_NAME = Dreilog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CD7AD201BB414C2E8C40E3997662F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B644962EA9CCA8D11EF1EB61EEE4CF /* Pods-DogSwiftExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DogSwiftExample/Pods-DogSwiftExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DogSwiftExample/Pods-DogSwiftExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F998764198014BEA9294795A1A7C700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83DAF74D556774DB509B0BE3EA8DCC9B /* Pods-DogSwiftExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DogSwiftExample/Pods-DogSwiftExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DogSwiftExample/Pods-DogSwiftExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8BFC6AE26D1C45FA2460C2C48C79E211 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5464FCD0161C93AB6B9AC0EE5431FAD /* Dreilog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Dreilog/Dreilog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Dreilog/Dreilog-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Dreilog/Dreilog.modulemap";
+				PRODUCT_MODULE_NAME = Dreilog;
+				PRODUCT_NAME = Dreilog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		018188BFC44314BAE82BDD53E93E0FEE /* Build configuration list for PBXNativeTarget "Pods-DogSwiftExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F998764198014BEA9294795A1A7C700 /* Debug */,
+				4CD7AD201BB414C2E8C40E3997662F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7397BF99EF1F559A261E55B5F0D894 /* Build configuration list for PBXNativeTarget "Dreilog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BFC6AE26D1C45FA2460C2C48C79E211 /* Debug */,
+				37E77765D1FE73BDDBF439092685C920 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

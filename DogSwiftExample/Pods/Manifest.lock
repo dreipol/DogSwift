@@ -1,0 +1,16 @@
+PODS:
+  - Dreilog (0.1.0)
+
+DEPENDENCIES:
+  - Dreilog (from `..`)
+
+EXTERNAL SOURCES:
+  Dreilog:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  Dreilog: d4adf69dfa1ec790702f1525d244e43d691cf5d8
+
+PODFILE CHECKSUM: d150c84cf8f4738ec38a4b2fb80004ce35cb26e5
+
+COCOAPODS: 1.7.1
