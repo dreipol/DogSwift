@@ -16,6 +16,40 @@ Add the environment variable `LOG_LEVEL` along with the desired value:
 - `info = 2`
 - `debug = 3`
 
+### Log to Xcode's debugging console
+```
+// Log function name of current scope.
+Log.info(#function)
+
+// The message parameter can be of type `Any`.
+Log.debug(view.bounds, tag: .ui)
+
+// Log a warning.
+Log.warn("Current device is running iOS 9.0, which doesn't support os_log.", tag: .location)
+
+// Error logging.
+let exampleError = NSError(domain: "ch.dreipol", code: -9999, userInfo: [
+    NSLocalizedDescriptionKey: "Flying to the moon was not possible.",
+    NSLocalizedFailureReasonErrorKey: "The operation timed out.",
+    NSLocalizedRecoverySuggestionErrorKey: "Have you tried turning it off and on again?"
+])
+Log.error(exampleError, description: #function, tag: .system
+```
+
+### Logging with tags
+Tags can help to group the logging output. Currently the folliwing tags are supported:
+- `networking`
+- `database`
+- `system`
+- `ui`
+- `view`
+- `location`
+- `pushNotification`
+- `notifications`
+- `workflow`
+- `barcode`
+- `rx`
+
 ## Requirements
 
 Swift 4.2
