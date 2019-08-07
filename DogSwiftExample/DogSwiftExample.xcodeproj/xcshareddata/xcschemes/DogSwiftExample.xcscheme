@@ -64,7 +64,7 @@
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "LOG_LEVEL"
-            value = "3"
+            value = "4"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
