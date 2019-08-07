@@ -80,7 +80,7 @@ public struct Log {
 
         if #available(iOS 10.0, *) {
             let fileName = path().fileNameWithoutExtension
-            os_log("[%@] [%@:%d] %@", log: OSLog.category(for: tag), type: OSLog.type(for: level),
+            os_log("[%@] [%@:%@] %@", log: OSLog.category(for: tag), type: OSLog.type(for: level),
                    level.description, fileName, String(describing: line()), String(describing: message()))
         } else {
             NSLog("[%@] [%@] %@", tag.description, level.description, String(describing: message()))
