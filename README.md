@@ -7,10 +7,10 @@ DogSwift uses `os_log` on devices with iOS 10.0+ installed and falls back to `NS
 ## Instructions
 
 Add the environment variable `LOG_LEVEL` along with the desired value:
-- `error = 0`
-- `warn = 1`
-- `info = 2`
-- `debug = 3`
+- `error = 1`
+- `warn = 2`
+- `info = 3`
+- `debug = 4`
 
 ### Log to Xcode's debugging console
 ```
