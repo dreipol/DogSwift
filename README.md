@@ -13,7 +13,7 @@ Add the environment variable `LOG_LEVEL` along with the desired value:
 - `debug = 4`
 
 ### Log to Xcode's debugging console
-```
+```swift
 // Log function name of current scope.
 Log.info(#function)
 
