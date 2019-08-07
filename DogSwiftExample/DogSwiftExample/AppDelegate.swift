@@ -25,6 +25,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         ])
         Log.error(exampleError, description: #function, tag: .system)
 
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = ViewController()
+        window?.makeKeyAndVisible()
+
         return true
     }
 
