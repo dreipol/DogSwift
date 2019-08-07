@@ -34,17 +34,17 @@ Log.error(exampleError, description: #function, tag: .system
 
 ### Logging with tags
 Tags can help to group the logging output. Currently the folliwing tags are supported:
-- `networking`
+- `barcode`
 - `database`
+- `location`
+- `networking`
+- `notifications`
+- `pushNotification`
+- `rx`
 - `system`
 - `ui`
 - `view`
-- `location`
-- `pushNotification`
-- `notifications`
 - `workflow`
-- `barcode`
-- `rx`
 
 ## Requirements
 
