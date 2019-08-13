@@ -1,3 +1,5 @@
+![](/assets/ic_DogSwift.svg?sanitize=true)
+
 # DogSwift
 
 A lightweight and easy to use logging API to include in your mobile iOS application. 
