@@ -1,6 +1,9 @@
-![](/assets/ic_DogSwift.svg?sanitize=true)
-
-# DogSwift
+<p align="center">
+    <img src="/assets/ic_DogSwift.svg?sanitize=true">  
+</p>
+<h1 align="center">
+    DogSwift
+</h1> 
 
 A lightweight and easy to use logging API to include in your mobile iOS application. 
 
