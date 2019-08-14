@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/dreipol/DogSwift'
-  s.author           = { 'Fabian Tinsz' => 'fabian.tinsz@dreipol.ch' }
+  s.author           = { 'dreipol' => 'dev@dreipol.ch' }
   s.source           = { :git => 'https://github.com/dreipol/DogSwift.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
