@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint dreilog-swift.podspec' to ensure this is a
+# Be sure to run `pod lib lint DogSwift.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -21,9 +21,9 @@ Pod::Spec.new do |s|
     Lightweight logging framework written in Swift.
                        DESC
 
-  s.homepage         = 'https://github.com/dreipol/dreilog-swift'
+  s.homepage         = 'https://github.com/dreipol/DogSwift'
   s.author           = { 'Fabian Tinsz' => 'fabian.tinsz@dreipol.ch' }
-  s.source           = { :git => 'https://github.com/dreipol/dreilog-swift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/dreipol/DogSwift.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   s.swift_version = '4.2'

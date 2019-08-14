@@ -1,0 +1,16 @@
+PODS:
+  - DogSwift (0.1.0)
+
+DEPENDENCIES:
+  - DogSwift (from `..`)
+
+EXTERNAL SOURCES:
+  DogSwift:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  DogSwift: 1414ae77688033538e534b0e548ce9e18a64e35f
+
+PODFILE CHECKSUM: f6380497912d8cafb4c1d722736ae53d5ff925cd
+
+COCOAPODS: 1.7.1

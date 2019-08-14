@@ -36,7 +36,7 @@ public struct Log {
         _ function: String = #function,
         _ line: Int = #line) {
 
-        Log.print(.warning, tag, message, file, function, line)
+        Log.print(.warn, tag, message, file, function, line)
     }
 
     public static func error(
@@ -74,25 +74,40 @@ public struct Log {
         _ function: @autoclosure @escaping () -> String,
         _ line: @autoclosure @escaping () -> Int) {
 
-//#if LOGGING_ENABLED
         if !shouldLog(with: level) {
             return
         }
 
-        let message = message() ??? "message is nil"
-
-        var description = level.description
-        if tag != .none {
-            description += " " + tag.description
-        }
-
         if #available(iOS 10.0, *) {
             let fileName = path().fileNameWithoutExtension
-            os_log("[%@ | %@:%d] %@", description, fileName, line(), message)
+            os_log("[%@] [%@:%@] %@", log: OSLog.category(for: tag), type: OSLog.type(for: level),
+                   level.description, fileName, String(describing: line()), String(describing: message()))
         } else {
-            NSLog("[%@] %@", description, message)
+            NSLog("[%@] [%@] %@", tag.description, level.description, String(describing: message()))
         }
-//#endif
+    }
+}
+
+@available(iOS 10.0, *)
+private extension OSLog {
+    static func category(for tag: Tag) -> OSLog {
+        return OSLog(
+            subsystem: Bundle.main.bundleIdentifier!,
+            category: tag.description
+        )
+    }
+
+    static func type(for level: Level) -> OSLogType {
+        switch level {
+        case .error:
+            return OSLogType.error
+        case .info:
+            return OSLogType.info
+        case .debug:
+            return OSLogType.debug
+        default:
+            return OSLogType.default
+        }
     }
 }
 
