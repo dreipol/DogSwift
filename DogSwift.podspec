@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DogSwift'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'Lightweight logging framework.'
 
 # This description is used to generate tags and improve search results.
@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/dreipol/DogSwift'
-  s.author           = { 'Fabian Tinsz' => 'fabian.tinsz@dreipol.ch' }
+  s.author           = { 'dreipol' => 'dev@dreipol.ch' }
   s.source           = { :git => 'https://github.com/dreipol/DogSwift.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
 
   s.source_files = 'DogSwift/Classes/**/*'
 end

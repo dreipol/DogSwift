@@ -53,7 +53,7 @@ Tags can help to group the logging output. Currently the folliwing tags are supp
 
 ## Requirements
 
-Swift 4.2
+Swift 5.0
 
 ## Installation
 
