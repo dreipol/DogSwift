@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/assets/ic_DogSwift.svg?sanitize=true">  
+    <img src="https://raw.githubusercontent.com/dreipol/DogSwift/master/assets/ic_DogSwift.svg?sanitize=true">  
 </p>
 <h1 align="center">
     DogSwift
