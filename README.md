@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/assets/ic_DogSwift.svg?sanitize=true">  
+    <img src="https://raw.githubusercontent.com/dreipol/DogSwift/master/assets/ic_DogSwift.svg?sanitize=true">  
 </p>
 <h1 align="center">
     DogSwift
@@ -55,13 +55,13 @@ Tags can help to group the logging output. Currently the folliwing tags are supp
 
 Swift 5.0
 
-## Installation
+## Installation with CocoaPods
 
 DogSwift is available through CocoaPods. To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'DogSwift', :git => 'https://github.com/dreipol/DogSwift.git'
+pod 'DogSwift'
 ```
 
 # DogSwiftExample
