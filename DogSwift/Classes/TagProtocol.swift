@@ -6,18 +6,18 @@
 //
 
 public protocol TagProtocol {
-    func makeString() -> String
+    func getTag() -> String
 }
 
 // MARK: -
 extension String: TagProtocol {
-    public func makeString() -> String {
+    public func getTag() -> String {
         return String(describing: self)
     }
 }
 
 extension Tag: TagProtocol {
-    public func makeString() -> String {
+    public func getTag() -> String {
         return String(describing: self)
     }
 }

@@ -16,7 +16,7 @@ public struct Log {
         _ function: String = #function,
         _ line: Int = #line) {
 
-        Log.print(.debug, tag.makeString(), message, file, function, line)
+        Log.print(.debug, tag.getTag(), message, file, function, line)
     }
 
     public static func info(
@@ -26,7 +26,7 @@ public struct Log {
         _ function: String = #function,
         _ line: Int = #line) {
 
-        Log.print(.info, tag.makeString(), message, file, function, line)
+        Log.print(.info, tag.getTag(), message, file, function, line)
     }
 
     public static func warning(
@@ -36,7 +36,7 @@ public struct Log {
         _ function: String = #function,
         _ line: Int = #line) {
 
-        Log.print(.warn, tag.makeString(), message, file, function, line)
+        Log.print(.warn, tag.getTag(), message, file, function, line)
     }
 
     public static func error(
@@ -48,9 +48,9 @@ public struct Log {
         _ line: Int = #line) {
 
         if let errorDescription = description {
-            Log.print(.error, tag.makeString(), (errorDescription + ": " + error.debugDescription), file, function, line)
+            Log.print(.error, tag.getTag(), (errorDescription + ": " + error.debugDescription), file, function, line)
         } else {
-            Log.print(.error, tag.makeString(), error.debugDescription, file, function, line)
+            Log.print(.error, tag.getTag(), error.debugDescription, file, function, line)
         }
     }
 
