@@ -90,10 +90,10 @@ public struct Log {
 
 @available(iOS 10.0, *)
 private extension OSLog {
-    static func category(for tag: Tag) -> OSLog {
+    static func category(for tag: String) -> OSLog {
         return OSLog(
             subsystem: Bundle.main.bundleIdentifier!,
-            category: tag.description
+            category: tag.uppercased()
         )
     }
 
