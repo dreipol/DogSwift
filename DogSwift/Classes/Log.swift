@@ -11,46 +11,46 @@ import os.log
 public struct Log {
     public static func debug(
         _ message: Any,
-        tag: Tag = .none,
+        tag: TagProtocol = Tag.none,
         _ file: String = #file,
         _ function: String = #function,
         _ line: Int = #line) {
 
-        Log.print(.debug, tag, message, file, function, line)
+        Log.print(.debug, tag.makeString(), message, file, function, line)
     }
 
     public static func info(
         _ message: Any,
-        tag: Tag = .none,
+        tag: TagProtocol = Tag.none,
         _ file: String = #file,
         _ function: String = #function,
         _ line: Int = #line) {
 
-        Log.print(.info, tag, message, file, function, line)
+        Log.print(.info, tag.makeString(), message, file, function, line)
     }
 
     public static func warning(
         _ message: Any,
-        tag: Tag = .none,
+        tag: TagProtocol = Tag.none,
         _ file: String = #file,
         _ function: String = #function,
         _ line: Int = #line) {
 
-        Log.print(.warn, tag, message, file, function, line)
+        Log.print(.warn, tag.makeString(), message, file, function, line)
     }
 
     public static func error(
         _ error: Error? = nil,
         description: String? = nil,
-        tag: Tag = .none,
+        tag: TagProtocol = Tag.none,
         _ file: String = #file,
         _ function: String = #function,
         _ line: Int = #line) {
 
         if let errorDescription = description {
-            Log.print(.error, tag, (errorDescription + ": " + error.debugDescription), file, function, line)
+            Log.print(.error, tag.makeString(), (errorDescription + ": " + error.debugDescription), file, function, line)
         } else {
-            Log.print(.error, tag, error.debugDescription, file, function, line)
+            Log.print(.error, tag.makeString(), error.debugDescription, file, function, line)
         }
     }
 
