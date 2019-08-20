@@ -68,7 +68,7 @@ public struct Log {
 
     private static func print(
         _ level: Level,
-        _ tag: Tag,
+        _ tag: String,
         _ message: @autoclosure @escaping () -> Any,
         _ path: @autoclosure @escaping () -> String,
         _ function: @autoclosure @escaping () -> String,
