@@ -32,7 +32,7 @@ extension Level: Comparable {
 // MARK: -
 public enum Tag: String {
     case none
-    case networking
+    case network
     case database
     case system
     case ui
