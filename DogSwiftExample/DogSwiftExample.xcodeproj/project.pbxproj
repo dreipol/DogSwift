@@ -11,6 +11,7 @@
 		B0347DC422DC9F17003D8AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0347DC322DC9F17003D8AEC /* AppDelegate.swift */; };
 		B0347DC622DC9F17003D8AEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0347DC522DC9F17003D8AEC /* ViewController.swift */; };
 		B0347DCB22DC9F17003D8AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0347DCA22DC9F17003D8AEC /* Assets.xcassets */; };
+		B0DF3BA0230BFAF4006364C3 /* DogSwiftExampleTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DF3B9F230BFAF4006364C3 /* DogSwiftExampleTag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		B0347DC522DC9F17003D8AEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B0347DCA22DC9F17003D8AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0347DCF22DC9F17003D8AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0DF3B9F230BFAF4006364C3 /* DogSwiftExampleTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogSwiftExampleTag.swift; sourceTree = "<group>"; };
 		BF0A207E5E98D67D7FE0C9DD /* Pods_DogSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 				B0347DC522DC9F17003D8AEC /* ViewController.swift */,
 				B0347DCA22DC9F17003D8AEC /* Assets.xcassets */,
 				B0347DCF22DC9F17003D8AEC /* Info.plist */,
+				B0DF3B9F230BFAF4006364C3 /* DogSwiftExampleTag.swift */,
 			);
 			path = DogSwiftExample;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			files = (
 				B0347DC622DC9F17003D8AEC /* ViewController.swift in Sources */,
 				B0347DC422DC9F17003D8AEC /* AppDelegate.swift in Sources */,
+				B0DF3BA0230BFAF4006364C3 /* DogSwiftExampleTag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
