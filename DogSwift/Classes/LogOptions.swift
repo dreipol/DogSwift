@@ -36,15 +36,4 @@ public enum Tag: String {
     case database
     case system
     case ui
-    case view
-    case location
-    case pushNotification
-    case notifications
-    case workflow
-    case barcode
-    case rx
-
-    var description: String {
-        return String(describing: self).uppercased()
-    }
 }
