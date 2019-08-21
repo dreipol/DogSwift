@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        Log.debug(view.bounds, tag: .ui)
+        Log.debug(view.bounds, tag: ExampleTag.viewDidLoad)
     }
 }
 

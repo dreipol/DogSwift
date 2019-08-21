@@ -11,46 +11,46 @@ import os.log
 public struct Log {
     public static func debug(
         _ message: Any,
-        tag: Tag = .none,
+        tag: TagProtocol = Tag.none,
         _ file: String = #file,
         _ function: String = #function,
         _ line: Int = #line) {
 
-        Log.print(.debug, tag, message, file, function, line)
+        Log.print(.debug, tag.getTag(), message, file, function, line)
     }
 
     public static func info(
         _ message: Any,
-        tag: Tag = .none,
+        tag: TagProtocol = Tag.none,
         _ file: String = #file,
         _ function: String = #function,
         _ line: Int = #line) {
 
-        Log.print(.info, tag, message, file, function, line)
+        Log.print(.info, tag.getTag(), message, file, function, line)
     }
 
     public static func warning(
         _ message: Any,
-        tag: Tag = .none,
+        tag: TagProtocol = Tag.none,
         _ file: String = #file,
         _ function: String = #function,
         _ line: Int = #line) {
 
-        Log.print(.warn, tag, message, file, function, line)
+        Log.print(.warn, tag.getTag(), message, file, function, line)
     }
 
     public static func error(
         _ error: Error? = nil,
         description: String? = nil,
-        tag: Tag = .none,
+        tag: TagProtocol = Tag.none,
         _ file: String = #file,
         _ function: String = #function,
         _ line: Int = #line) {
 
         if let errorDescription = description {
-            Log.print(.error, tag, (errorDescription + ": " + error.debugDescription), file, function, line)
+            Log.print(.error, tag.getTag(), (errorDescription + ": " + error.debugDescription), file, function, line)
         } else {
-            Log.print(.error, tag, error.debugDescription, file, function, line)
+            Log.print(.error, tag.getTag(), error.debugDescription, file, function, line)
         }
     }
 
@@ -68,7 +68,7 @@ public struct Log {
 
     private static func print(
         _ level: Level,
-        _ tag: Tag,
+        _ tag: String,
         _ message: @autoclosure @escaping () -> Any,
         _ path: @autoclosure @escaping () -> String,
         _ function: @autoclosure @escaping () -> String,
@@ -90,10 +90,10 @@ public struct Log {
 
 @available(iOS 10.0, *)
 private extension OSLog {
-    static func category(for tag: Tag) -> OSLog {
+    static func category(for tag: String) -> OSLog {
         return OSLog(
             subsystem: Bundle.main.bundleIdentifier!,
-            category: tag.description
+            category: tag.uppercased()
         )
     }
 

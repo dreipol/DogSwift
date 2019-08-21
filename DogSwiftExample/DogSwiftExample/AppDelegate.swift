@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             NSLocalizedFailureReasonErrorKey: "The operation timed out.",
             NSLocalizedRecoverySuggestionErrorKey: "Have you tried turning it off and on again?"
         ])
-        Log.error(exampleError, description: #function, tag: .system)
+        Log.error(exampleError, description: #function, tag: Tag.system)
 
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = ViewController()

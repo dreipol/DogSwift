@@ -39,17 +39,40 @@ Log.error(exampleError, description: #function, tag: .system
 
 ### Logging with tags
 Tags can help to group the logging output. Currently the folliwing tags are supported:
-- `barcode`
+- `none`
 - `database`
-- `location`
 - `networking`
-- `notifications`
-- `pushNotification`
-- `rx`
 - `system`
 - `ui`
-- `view`
-- `workflow`
+
+### Define custom tags
+It's possible to define your own tags and pass them to DogSwift:
+```swift
+import DogSwift
+
+enum ExampleTag: String {
+    case viewDidLoad
+}
+
+extension ExampleTag: TagProtocol {
+    func makeString() -> String {
+        return String(describing: self)
+    }
+}
+```
+
+The new Tag can now be passed to DogSwift:
+```swift
+[...]
+
+override func viewDidLoad() {
+    super.viewDidLoad()
+
+    Log.debug(view.bounds, tag: ExampleTag.viewDidLoad)
+}
+    
+[...]
+```
 
 ## Requirements
 

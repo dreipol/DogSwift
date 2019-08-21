@@ -3,18 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		4D4E31081E2790F363938563772034CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		68DD766389E54854C44B7CC4E0E2926E /* DogSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43EF8201A0F243D6F1C5F64737E3D45F /* DogSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		668F62BAD561ECAD5531C083488AD7D1 /* LogOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF03F4FD92D8291D5A1D6951C9DF310 /* LogOptions.swift */; };
 		6C38C9531A2F9B094023D413C8B6B5A2 /* Pods-DogSwiftExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11DC9BB8C8DE5A0DD6E2F230D9261BE0 /* Pods-DogSwiftExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6E75CB464D75C5444DE3DC899864E307 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CCF9D9080B0DEE59498AD88142BD2 /* Log.swift */; };
-		701F3027EC5AEFC7B0F4970B37400ED8 /* DogSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22212219636074AD40F4B101A06246E8 /* DogSwift-dummy.m */; };
 		96078483DBD9C6793F07093167F46C59 /* Pods-DogSwiftExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 407C853A43472E086F418C9A92D00B33 /* Pods-DogSwiftExample-dummy.m */; };
-		B2AE8F828B03C41C4A7E59581F32E297 /* LogOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2814FC0FF19724DD881110F2B89EE740 /* LogOptions.swift */; };
-		E8C2CE66D3131A1806E1A4C1C089BE9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AF865A5E349E4FE981355429A3C82802 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A9F0285034C60A51B18F8B210961A8 /* Log.swift */; };
+		C7E57F1DCC88F06392C48FF5C839A89D /* DogSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37AB89FE884B92D8486504245172F1E3 /* DogSwift-dummy.m */; };
+		CDE1663C746EFB60282DEEFAAA53BF9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DE62EA8CC9B17F68BD6B9417DC759774 /* TagProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30909CDF9ACA335D05F776B26BB9E20 /* TagProtocol.swift */; };
+		F6A5D00E02BC2ED3164F3A6D70AD1B96 /* DogSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8086C0CA8F653E01304F2CBEC5A582C8 /* DogSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,38 +31,32 @@
 /* Begin PBXFileReference section */
 		0334CB123BAF774F0892433ED27A21F7 /* Pods-DogSwiftExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DogSwiftExample-Info.plist"; sourceTree = "<group>"; };
 		11DC9BB8C8DE5A0DD6E2F230D9261BE0 /* Pods-DogSwiftExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DogSwiftExample-umbrella.h"; sourceTree = "<group>"; };
-		1887578ACC3C46800EFCB76442F54DAC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1DDD50A09F5805FC1BE73CAEC4A57467 /* DogSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DogSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		22212219636074AD40F4B101A06246E8 /* DogSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DogSwift-dummy.m"; sourceTree = "<group>"; };
-		2814FC0FF19724DD881110F2B89EE740 /* LogOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogOptions.swift; path = DogSwift/Classes/LogOptions.swift; sourceTree = "<group>"; };
+		19B06711C6F37F368BB3FB037EF44E50 /* DogSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DogSwift-prefix.pch"; sourceTree = "<group>"; };
+		1DDD50A09F5805FC1BE73CAEC4A57467 /* DogSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DogSwift.framework; path = DogSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E1B5CC9F665324F447F7FC1025D3F9 /* Pods-DogSwiftExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DogSwiftExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		37AB89FE884B92D8486504245172F1E3 /* DogSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DogSwift-dummy.m"; sourceTree = "<group>"; };
+		3DF03F4FD92D8291D5A1D6951C9DF310 /* LogOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogOptions.swift; path = DogSwift/Classes/LogOptions.swift; sourceTree = "<group>"; };
 		407C853A43472E086F418C9A92D00B33 /* Pods-DogSwiftExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DogSwiftExample-dummy.m"; sourceTree = "<group>"; };
-		43EF8201A0F243D6F1C5F64737E3D45F /* DogSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DogSwift-umbrella.h"; sourceTree = "<group>"; };
-		475813A6A0DB0980C184B65ED4DBFAFE /* DogSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DogSwift-prefix.pch"; sourceTree = "<group>"; };
+		4B4A43708FB27E4987BB2AFE5B4150CF /* DogSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DogSwift.modulemap; sourceTree = "<group>"; };
+		572364274D41844D89EA68334754EEFF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5ABF8AC549FD0B20387BC3FD67C49D88 /* DogSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DogSwift.xcconfig; sourceTree = "<group>"; };
 		5BA159F8C0360894A5C145DE7CD517E7 /* Pods-DogSwiftExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DogSwiftExample-frameworks.sh"; sourceTree = "<group>"; };
 		6770920BAA835BEFE0187446A0E5A23F /* Pods-DogSwiftExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DogSwiftExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8086C0CA8F653E01304F2CBEC5A582C8 /* DogSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DogSwift-umbrella.h"; sourceTree = "<group>"; };
 		83DAF74D556774DB509B0BE3EA8DCC9B /* Pods-DogSwiftExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DogSwiftExample.debug.xcconfig"; sourceTree = "<group>"; };
-		9B1CCF9D9080B0DEE59498AD88142BD2 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = DogSwift/Classes/Log.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9578F8BFCB6AC5F536B088F16B733C4C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		99F5E94375AD0E3E9F89F09C55923AF1 /* DogSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DogSwift-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9B644962EA9CCA8D11EF1EB61EEE4CF /* Pods-DogSwiftExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DogSwiftExample.release.xcconfig"; sourceTree = "<group>"; };
-		AB56BEEC2AB4BAC7FD5323A2B746FD29 /* Pods_DogSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogSwiftExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD17F8B41D33092047598679BFD1912A /* DogSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DogSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C1035DE56167ABBFD5D72C2CF1CB9A51 /* DogSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DogSwift.xcconfig; sourceTree = "<group>"; };
+		AB56BEEC2AB4BAC7FD5323A2B746FD29 /* Pods_DogSwiftExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DogSwiftExample.framework; path = "Pods-DogSwiftExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B778D9C0A50F3AE65CF70337BD25CC9A /* DogSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DogSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C233B282DF307CF70F79E28F1FEFE13F /* Pods-DogSwiftExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DogSwiftExample.modulemap"; sourceTree = "<group>"; };
-		EA6970AFD450FE66C697C25B9E3F0FF0 /* DogSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DogSwift-Info.plist"; sourceTree = "<group>"; };
-		F82966781738454B2A1D933E57A91F7F /* DogSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DogSwift.modulemap; sourceTree = "<group>"; };
+		F30909CDF9ACA335D05F776B26BB9E20 /* TagProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TagProtocol.swift; path = DogSwift/Classes/TagProtocol.swift; sourceTree = "<group>"; };
+		F3A9F0285034C60A51B18F8B210961A8 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = DogSwift/Classes/Log.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		60695F6CA7405173EA2D0C1A5E92CC1F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8C2CE66D3131A1806E1A4C1C089BE9A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CDA9B561010E903A53E790D70118D0B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -70,27 +65,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E434E7A8B408F0DD8BE596EEF34F24F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE1663C746EFB60282DEEFAAA53BF9F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		134032BC42F084A20ECBF0E13A7E6F63 /* DogSwift */ = {
+		545B9E8F7F7E05571A76AB23FA00AD1D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B1CCF9D9080B0DEE59498AD88142BD2 /* Log.swift */,
-				2814FC0FF19724DD881110F2B89EE740 /* LogOptions.swift */,
-				F1512D9011A902FD0E1FEA7EC27633DA /* Pod */,
-				E67D0297A62123182172606E47DEE9B0 /* Support Files */,
+				4B4A43708FB27E4987BB2AFE5B4150CF /* DogSwift.modulemap */,
+				5ABF8AC549FD0B20387BC3FD67C49D88 /* DogSwift.xcconfig */,
+				37AB89FE884B92D8486504245172F1E3 /* DogSwift-dummy.m */,
+				99F5E94375AD0E3E9F89F09C55923AF1 /* DogSwift-Info.plist */,
+				19B06711C6F37F368BB3FB037EF44E50 /* DogSwift-prefix.pch */,
+				8086C0CA8F653E01304F2CBEC5A582C8 /* DogSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "DogSwiftExample/Pods/Target Support Files/DogSwift";
+			sourceTree = "<group>";
+		};
+		63C318684AED633BDE516468027BD783 /* DogSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F3A9F0285034C60A51B18F8B210961A8 /* Log.swift */,
+				3DF03F4FD92D8291D5A1D6951C9DF310 /* LogOptions.swift */,
+				F30909CDF9ACA335D05F776B26BB9E20 /* TagProtocol.swift */,
+				BAF27F5843B809DE40426A985D642A48 /* Pod */,
+				545B9E8F7F7E05571A76AB23FA00AD1D /* Support Files */,
 			);
 			name = DogSwift;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		B3193CA7FBA3A33FA5BDA30315D1020B /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				134032BC42F084A20ECBF0E13A7E6F63 /* DogSwift */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B36B525153E07007DE01EB75D9FD74F2 /* Pods-DogSwiftExample */ = {
@@ -118,6 +128,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		BAF27F5843B809DE40426A985D642A48 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B778D9C0A50F3AE65CF70337BD25CC9A /* DogSwift.podspec */,
+				9578F8BFCB6AC5F536B088F16B733C4C /* LICENSE */,
+				572364274D41844D89EA68334754EEFF /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B3193CA7FBA3A33FA5BDA30315D1020B /* Development Pods */,
+				FA71C8EB9049BAEAD290E92F67C96E65 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				F7F64FF52BA0826F58242AEB115E2096 /* Products */,
 				B7F583E63AFF54FA9F02534EA6451CC0 /* Targets Support Files */,
@@ -145,29 +165,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E67D0297A62123182172606E47DEE9B0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F82966781738454B2A1D933E57A91F7F /* DogSwift.modulemap */,
-				C1035DE56167ABBFD5D72C2CF1CB9A51 /* DogSwift.xcconfig */,
-				22212219636074AD40F4B101A06246E8 /* DogSwift-dummy.m */,
-				EA6970AFD450FE66C697C25B9E3F0FF0 /* DogSwift-Info.plist */,
-				475813A6A0DB0980C184B65ED4DBFAFE /* DogSwift-prefix.pch */,
-				43EF8201A0F243D6F1C5F64737E3D45F /* DogSwift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "DogSwiftExample/Pods/Target Support Files/DogSwift";
-			sourceTree = "<group>";
-		};
-		F1512D9011A902FD0E1FEA7EC27633DA /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				AD17F8B41D33092047598679BFD1912A /* DogSwift.podspec */,
-				1887578ACC3C46800EFCB76442F54DAC /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		F7F64FF52BA0826F58242AEB115E2096 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,14 +174,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FA71C8EB9049BAEAD290E92F67C96E65 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63C318684AED633BDE516468027BD783 /* DogSwift */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3B26513D1A4E30417689B13F1526E5E9 /* Headers */ = {
+		DD381BF2F091D05B3C2867DC7902994B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68DD766389E54854C44B7CC4E0E2926E /* DogSwift-umbrella.h in Headers */,
+				F6A5D00E02BC2ED3164F3A6D70AD1B96 /* DogSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,12 +225,12 @@
 		};
 		C3DAA14758D05B436ACCE3448B9BCDCF /* DogSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B8702FE1E704BFA71B4236C77F31F2A /* Build configuration list for PBXNativeTarget "DogSwift" */;
+			buildConfigurationList = C39908F15AA4B0916675183EDE21F9B7 /* Build configuration list for PBXNativeTarget "DogSwift" */;
 			buildPhases = (
-				3B26513D1A4E30417689B13F1526E5E9 /* Headers */,
-				C3962D530CBD980F27DABB547C18D54C /* Sources */,
-				60695F6CA7405173EA2D0C1A5E92CC1F /* Frameworks */,
-				6821C9DC13B7089D3EFF4B4361110C4F /* Resources */,
+				DD381BF2F091D05B3C2867DC7902994B /* Headers */,
+				C997C31A1BCB5A6AEBAD5FE9DCAC5D35 /* Sources */,
+				E434E7A8B408F0DD8BE596EEF34F24F1 /* Frameworks */,
+				CF9E5C674D0FAF09A3A97FB83C00D65B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -244,14 +249,9 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					C3DAA14758D05B436ACCE3448B9BCDCF = {
-						LastSwiftMigration = 1020;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -269,7 +269,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6821C9DC13B7089D3EFF4B4361110C4F /* Resources */ = {
+		CF9E5C674D0FAF09A3A97FB83C00D65B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -294,13 +294,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C3962D530CBD980F27DABB547C18D54C /* Sources */ = {
+		C997C31A1BCB5A6AEBAD5FE9DCAC5D35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				701F3027EC5AEFC7B0F4970B37400ED8 /* DogSwift-dummy.m in Sources */,
-				6E75CB464D75C5444DE3DC899864E307 /* Log.swift in Sources */,
-				B2AE8F828B03C41C4A7E59581F32E297 /* LogOptions.swift in Sources */,
+				C7E57F1DCC88F06392C48FF5C839A89D /* DogSwift-dummy.m in Sources */,
+				AF865A5E349E4FE981355429A3C82802 /* Log.swift in Sources */,
+				668F62BAD561ECAD5531C083488AD7D1 /* LogOptions.swift in Sources */,
+				DE62EA8CC9B17F68BD6B9417DC759774 /* TagProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,44 +317,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		20A8E2576EF91CA82312205FB1B6DE1A /* Debug */ = {
+		5A2E028763D159931343BD391597F053 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1035DE56167ABBFD5D72C2CF1CB9A51 /* DogSwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DogSwift/DogSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DogSwift/DogSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/DogSwift/DogSwift.modulemap";
-				PRODUCT_MODULE_NAME = DogSwift;
-				PRODUCT_NAME = DogSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4FE2E6F259467EE076BB7E972219325F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1035DE56167ABBFD5D72C2CF1CB9A51 /* DogSwift.xcconfig */;
+			baseConfigurationReference = 5ABF8AC549FD0B20387BC3FD67C49D88 /* DogSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -586,18 +552,44 @@
 			};
 			name = Release;
 		};
+		F591D38D2EC0872514199CE2D4806F51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5ABF8AC549FD0B20387BC3FD67C49D88 /* DogSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DogSwift/DogSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DogSwift/DogSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DogSwift/DogSwift.modulemap";
+				PRODUCT_MODULE_NAME = DogSwift;
+				PRODUCT_NAME = DogSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B8702FE1E704BFA71B4236C77F31F2A /* Build configuration list for PBXNativeTarget "DogSwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				20A8E2576EF91CA82312205FB1B6DE1A /* Debug */,
-				4FE2E6F259467EE076BB7E972219325F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -612,6 +604,15 @@
 			buildConfigurations = (
 				BD7FFCFDE424EFBF8828B74F6BA984C5 /* Debug */,
 				E3F4E6C0FD31E2199BFA4D93847CC0A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C39908F15AA4B0916675183EDE21F9B7 /* Build configuration list for PBXNativeTarget "DogSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F591D38D2EC0872514199CE2D4806F51 /* Debug */,
+				5A2E028763D159931343BD391597F053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
