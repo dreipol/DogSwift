@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DogSwift'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Lightweight logging framework.'
 
 # This description is used to generate tags and improve search results.
@@ -27,6 +27,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
 
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.12'
   s.swift_version = '5.0'
 
   s.source_files = 'DogSwift/Classes/**/*'
