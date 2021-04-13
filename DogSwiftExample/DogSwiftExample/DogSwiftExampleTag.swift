@@ -13,7 +13,8 @@ enum ExampleTag: String {
 }
 
 extension ExampleTag: TagProtocol {
-    func makeString() -> String {
+    func getTag() -> String {
         return String(describing: self)
+
     }
 }
