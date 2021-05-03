@@ -1,5 +1,5 @@
 PODS:
-  - DogSwift (1.0.1)
+  - DogSwift (1.1.2)
 
 DEPENDENCIES:
   - DogSwift (from `..`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ".."
 
 SPEC CHECKSUMS:
-  DogSwift: 61a1c70b233bbfcebf794cc002bf7df9e49b1520
+  DogSwift: 6c75f3ada7ddceb16c9d299fb1523d4e94f08bbc
 
 PODFILE CHECKSUM: f6380497912d8cafb4c1d722736ae53d5ff925cd
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.10.1

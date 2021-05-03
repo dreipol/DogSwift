@@ -87,6 +87,14 @@ it, simply add the following line to your Podfile:
 pod 'DogSwift'
 ```
 
+## Installation using Swift Package Manager
+Add the following to your `Package.swift` file:
+```swift
+dependencies: [
+    .package(url: "https://github.com/dreipol/DogSwift.git", .upToNextMajor(from: "1.1.2"))
+]
+```
+
 # DogSwiftExample
 
 To run the example project, open `DogSwiftExample.xcworkspace` which resides inside the DogSwiftExample directory. The demo app contains some examples on how to use DogSwift for Logging errors as well as various information to Xcode's debugging console.
